@@ -1,8 +1,9 @@
-import Image from "next/image";
+import TodoList from "./Components/TodoList";
 
 export default function Home() {
   return (
-    
-    <h1>Task Management</h1>
+    <main className="min-h-screen bg-gray-100">
+      <TodoList />
+    </main>
   )
 }
